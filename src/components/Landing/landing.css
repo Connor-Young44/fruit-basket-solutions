@@ -1,0 +1,50 @@
+.landing-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 12rem;
+    border-radius: 0% 0% 150% 150%/0% 0% 40% 40%;
+}
+.landing-logo{
+    margin-top: 0;
+    padding-top: 0;
+    width: 25vw;
+    height: 15vh;
+    object-fit: contain;
+    
+}
+.landing-header{
+    text-align: left;
+    font-size: 4rem;
+    margin-top: 5rem;
+    
+    
+}
+.link-section{
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 1.5rem;
+    border-bottom: solid white 2px;
+}
+.landing-button{
+    margin-top: 5rem;
+    font-size: 3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 50%;
+    background-color: white;
+}
