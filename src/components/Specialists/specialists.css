@@ -1,28 +1,43 @@
-.specialists-main{
-    display: flex;
-    align-items: center;
-    text-align: left;
-    justify-content: space-evenly;
-    padding: 5% 10%;
+.specialists-main {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-evenly;
+  padding: 5% 10%;
 }
-.team-image{
-    max-width: 40%;
+.team-image {
+  max-width: 40%;
 }
-.title{
-    font-size: 3rem;
+.title {
+  font-size: 3rem;
 }
-.main-section{
-    max-width: 33%;
+.main-section {
+  max-width: 33%;
 }
-.main-text{
-    font-size: 1.5rem;
+.main-text {
+  font-size: 1.5rem;
 }
-.specialists-button{
-    
-    background-color: #294416;
-    color: white;
-    font-size: 1.5rem;
-    border: none;
-    border-radius: 25px;
-    padding: 15px 30px;
+.specialists-button {
+  background-color: #294416;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+@media screen and (max-width: 600px) {
+  .specialists-main {
+    text-align: center;
+    flex-direction: column;
+  }
+  .main-section {
+    max-width: 100vw;
+  }
+  .title {
+    font-size: 2.5rem;
+    padding: 0;
+  }
+  .team-image {
+    max-width: 400px;
+  }
 }
